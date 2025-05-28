@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from request_helpers import fetch_data
+from utils.request_helpers import fetch_data
 
 def run_desemprego_etl():
     url = "https://servicodados.ibge.gov.br/api/v3/agregados/4099/periodos/all/variaveis/4099?localidades=N1[1]"

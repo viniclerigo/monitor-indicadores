@@ -1,4 +1,4 @@
-from request_helpers import fetch_data
+from utils.request_helpers import fetch_data
 import pandas as pd
 import os
 
